@@ -1,5 +1,9 @@
-import { createServer } from "http";
+const http = require("http");
 
-const reqListener = (req, resp) => {};
+const rqListener = (req, res) => {
+	console.log(req);
+};
 
-createServer(reqListener);
+const server = http.createServer(rqListener);
+
+server.listen(3000);
