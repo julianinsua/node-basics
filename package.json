@@ -1,0 +1,23 @@
+{
+  "name": "basics",
+  "version": "1.0.0",
+  "description": "Just raw node",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/julianinsua/node-basics.git"
+  },
+  "author": "Julian Insua",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/julianinsua/node-basics/issues"
+  },
+  "homepage": "https://github.com/julianinsua/node-basics#readme",
+  "dependencies": {
+    "nodemon": "^2.0.6"
+  }
+}

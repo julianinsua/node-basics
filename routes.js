@@ -8,7 +8,7 @@ const rqHandler = (req, res) => {
 		res.write("<html>");
 		res.write("<head><title>Enter Mesage</title></head>");
 		res.write(
-			"<body><form action='/message' method='POST'><input name='message' type='text'/><button type='submit'>Submit</button></form></body>"
+			"<body><p>Little message App</p><form action='/message' method='POST'><input name='message' type='text'/><button type='submit'>Submit</button></form></body>"
 		);
 		res.write("</html>");
 		return res.end();
